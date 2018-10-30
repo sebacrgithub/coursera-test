@@ -13,13 +13,10 @@ p {
   height: auto;
   margin-top: 0px;
   margin-bottom: 0px;
-  margin-right: auto;
-  margin-left: auto;
   padding: 20px 10px 10px 10px;
 }
 
-#p1 {
-  background-color: #A52A2A;
+.ptitle {
   position: absolute;
   top: 0px;
   right: 0px;
@@ -28,11 +25,24 @@ p {
   padding-top: 0px;
 }
 
+#p1 {
+    background-color: #ff3333; 
+}
+
+#p2 {
+    background-color: #00ffff; 
+}
+
+#p3 {
+    background-color: #558000; 
+    color: #ffffff;
+}
+
 .row {
   width: 100%;
 }
 
-#interno {
+.interno {
   position: relative;
   margin-right: 10px;
   margin-left: 10px;
